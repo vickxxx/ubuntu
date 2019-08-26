@@ -14,4 +14,5 @@ RUN apt-get -y update && \
     npm install hexo-renderer-jade@0.3.0 --save && \
     npm install hexo-renderer-stylus --save && \
     npm install hexo-generator-json-content@2.2.0 --save && \
-    npm install hexo-filter-flowchart --save
+    npm install hexo-filter-flowchart --save && \
+    wget https://github.com/bazelbuild/bazel/releases/download/0.18.1/bazel-0.18.1-installer-darwin-x86_64.sh
